@@ -11,6 +11,7 @@ set(SYS_SRC
 	AppendFile
 	Processinfo
 	Logging
+	LocalThread
 	LogStream
 	Histogram
 	Url
@@ -18,6 +19,7 @@ set(SYS_SRC
 	CountDown
 	LogFile
 	Asynclog
+	Properties
 	)
 add_library(wallesys ${SYS_SRC})
 target_link_libraries(wallesys pthread rt)
