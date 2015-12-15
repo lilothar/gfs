@@ -15,9 +15,10 @@ include_directories(${PROJECT_BINARY_DIR}) #for config.h
 
 #add_executable(hello test.cc)
 
-add_subdirectory(walle/config)
-add_subdirectory(walle/unit)
-add_subdirectory(walle/sys)
-add_subdirectory(walle/ext)
-add_subdirectory(walle/net)
-add_subdirectory(walle/algo)
+#add_subdirectory(walle/config)
+#add_subdirectory(walle/unit)
+#add_subdirectory(walle/sys)
+#add_subdirectory(walle/ext)
+#add_subdirectory(walle/net)
+#add_subdirectory(walle/algo)
+add_subdirectory(gfs/qcdio)
